@@ -964,7 +964,7 @@ trunc(const std::chrono::duration<Rep, Period>& d)
 }
 
 // VS Update 2 provides floor, ceil, round, abs in chrono.
-#if (defined(_MSC_FULL_VER) && _MSC_FULL_VER < 190023918) || __cplusplus <= 201402
+#if (defined(_MSC_FULL_VER) && _MSC_FULL_VER < 190023918) || __cplusplus <= 201500
 
 // round down
 template <class To, class Rep, class Period>
